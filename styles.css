@@ -1,0 +1,82 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Inter";
+}
+
+.about-us{
+    display: flex;
+    flex-direction: row;
+}
+.photo-container {
+    
+    position: relative;
+    padding: 100px 0px 106px 171px;
+}
+
+.under-photo{
+    position: absolute;
+    top: 100px;
+    left: 171px;
+}
+
+.top-photo {
+    position: absolute;
+    top: 406px;
+    left: 373px;
+}
+
+.text-container{
+   padding: 100px 171px 177px 771px;
+   align-items: center;
+}
+
+.text-container h4 {
+    color: #0A7777;
+    padding:0px 171px 6px 0px;
+    font-size: 24px;
+   
+}
+
+.text-container h2 {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 69px;
+    width: 500px;
+    height: 200px;
+}
+
+.description {
+    display: flex;
+    align-items: center;
+    color: #000000;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 35px;
+    width: 570px;
+    height: 200px;
+}
+
+.numbers p{
+    display: flex;
+    gap: 58px;
+    color: #0A7777;
+    font-weight: 600;
+    font-size: 50px;
+    line-height: 61px;
+}
+
+.numbers-text {
+    display: flex;
+    gap: 40px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
